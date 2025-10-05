@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="/">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="Description" content="Demonstration for my-counter-app">
+
+  <style>
+    :root, html, body {
+      margin: var(--ddd-spacing-8);
+      padding: var(--ddd-spacing-4);
+    }
+    #demo {
+     position: center;
+    }
+    my-counter-app {
+      margin: var(--ddd-spacing-4);
+      border: var(--ddd-border-lg);
+      border-width: 16px;
+      border-radius: var(--ddd-radius-sm);
+      border-color: var(--ddd-theme-default-discoveryCoral);
+      border-style: double;
+      max-width: 400px;
+      height: 215px;
+    }
+    my-counter-app:hover {
+      box-shadow: var(--ddd-boxShadow-xl);
+    }
+   </style>
+
+  <title>my-counter-app</title>
+<body>
+  <div id="counter-app">
+
+    <!-- this is going to do whatever the tag's defaults are -->
+    <my-counter-app></my-counter-app>
+  </div>
+  <script type="module" src="./my-counter-app.js"></script>
+    </div>
+  </details>
+</body>
+</html>
